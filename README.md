@@ -7,8 +7,11 @@ First get the transaction id, object number and count for that transaction. In t
 The following are the states used in a transaction: 
 
 •	TR_ACTIVE or processing (represented as “P”) 
+
 •	TR_WAIT (represented as “W”) 
+
 •	TR_ABORT (represented as “A”) and 
+
 •	TR_END (represented as “E”) This is the state while commit is going on. 
 
 readtx():

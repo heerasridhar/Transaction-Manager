@@ -1,6 +1,7 @@
 # Transaction Manager
 
 In Zgt_tc.C, implement readtx(), writetx(), aborttx(), committx(), do_commit_abort(), perform_readwrite(), set_lock(). 
+
 First get the transaction id, object number and count for that transaction. In the beginning of the transaction set the obno=0 and SGNO=1. 
 
 The following are the states used in a transaction: 
